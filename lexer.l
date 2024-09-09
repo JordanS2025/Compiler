@@ -10,7 +10,7 @@ void yyerror(const char *s); // Error reporting
 
 %%
 
-[0-9]+                {printf("%-15s  | %-15s\n", "TOKEN: NUMBER", yytext); return NUMBER; }
+[0-9]+                {printf("%-15s  | %-15s\n", "TOKEN: NUMBER", yytext); return NUMBER; } // Rules
 "int"                 { printf("%-15s | %-15s\n", "TOKEN: TYPE_INT", yytext); return TYPE_INT; }
 "char"                { printf("%-15s | %-15s\n", "TOKEN: TYPE_CHAR", yytext); return TYPE_CHAR; }
 [a-zA-Z_][a-zA-Z0-9_]* { printf("%-15s | %-15s\n", "TOKEN: ID", yytext); return ID; }
