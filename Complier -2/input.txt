@@ -1,0 +1,14 @@
+int sum() {
+    array int val[4] = {1, 2, 3, 4};
+    int a = 5;
+    int b = 3*5*4;
+int c =a+b;
+write c;
+    return a+b;
+}
+int main() {
+    array int arr[5] = {1, 2, 3, 7, 5};
+    write arr[4];
+    sum();
+    return 0;
+}

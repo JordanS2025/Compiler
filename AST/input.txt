@@ -1,4 +1,0 @@
-int x = 5;
-int y = 4;
-int z = 5+4+3;
-write x;
