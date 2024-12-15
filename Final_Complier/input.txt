@@ -1,0 +1,56 @@
+int add(int a, int b, int c) 
+{
+    int x = 65;
+    int result = a + b * 9;
+    if(a < 5)
+    {
+        write b;
+    }
+    write x; 
+    return result;
+}
+
+int foo( char c, int i, float f)
+{
+    if (i > 100)
+    {
+        write i; 
+
+    }
+    else if (f < 10.0)
+    {
+        write f;
+    }
+    else
+    {
+        write c;
+    }
+
+    if (i > 100)
+    {
+        write i;
+    }
+    else
+    {
+        write c;
+    }
+
+    return 55; 
+}
+
+int main() {
+    int x = 5;
+    int y = 10;
+    int z = (5+4)*3;
+    float f = 3.14;
+    char c = 'A';
+    int test = foo(c, x, f);
+    int sum = add(1,2,3);
+    while (x<10)
+    {
+        write x;
+        x = x+1;
+    }
+    write sum;
+    return 0;
+}
